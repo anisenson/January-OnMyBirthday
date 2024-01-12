@@ -1,22 +1,9 @@
+body {
+  background-color: #A0D9EF;
+}
 
-.background {
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    position: relative;
-  }
-  
-  .background::before {
-    content: "";
-    background-image: url("birthday-background.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1; 
-  }
 
+.custombackground {
+  background-color: #f5f5f5;
+  border: 2px solid #858585;
+}
