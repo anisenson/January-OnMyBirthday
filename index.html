@@ -12,87 +12,72 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
 
     <link rel="stylesheet" href="style.css" />
-</head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&family=Kameron:wght@500&display=swap" rel="stylesheet">
 
 <body>
-        <div class="container ">
-            <div class="row m-3 mt-5">
-                <div class="col-12 text-center ">
-                    <h1>On My Birthday...</h1>
-                </div>
-            </div>
+    <header>
+        <!--NavBar-->
+        <nav class="navbar justify-content-center">
+            <button onclick="Change2007()" class="btn nav-button">On my Birthday!</button>
+        </nav>
+    </header>
 
-            <div class="row m-3">
-                <div class="col-12 text-center">
-                    <h3>May 24th, 2007</h3>
-                </div>
-            </div>
-
-            <div class="row m-3">
-                <div class="col-12 text-center">
-                    <p class="p1">
-                        I was born on May 24th, 2007. Click on the
-                        different dates below to learn about what happened, in the past, on my
-                        birthday
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <!--following will be changed-->
-        <div class="container border bg-white ">
-            <div class="row m-3">
-                <div class="col-12 text-center">
-                    <h2>Title</h2>
-                </div>
-            </div>
-
-            <div class="row m-3">
-                <div class="col-12 text-center">
-                    <h3>Description</h3>
-                </div>
-            </div>
-
-            <div class="row m-3">
-                <div class="col-12 text-center">
-                    <p>Picture</p>
-                </div>
-            </div>
-        </div>
- 
-        <div class="container mt-5">
-            <div class="row justify-content-center m-3">
-                <div class="col-lg-2 col-sm-12 text-center p-3">
-                    <button type="button" onclick="Change1883()" class="btn custombtn btn-lg">
-                        1883
-                    </button>
-                </div>
-                <div class="col-lg-2 col-sm-12 text-center p-3">
-                    <button type="button" onclick="Change1844()" class="btn custombtn btn-lg">
-                        1844
-                    </button>
+    <main>
+        <div class="container">
+            <div class="background">
+                <div class="row m-3">
+                    <div class="col-12 align-items-center text-center">
+                        <h1 class="date" id="Change-Date"> May 24th, 2007 <br></h1>
+                    </div>
                 </div>
 
-                <div class="col-lg-2 col-sm-12 text-center p-3">
-                    <button type="button" onclick="Change1915()" class="btn custombtn btn-lg">
-                        1915
-                    </button>
+                <hr>
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-12  text-center">
+                        <img class="img1 img-fluid" src="#" id="Change-Image">
+                    </div>
                 </div>
-                <div class="col-lg-2 col-sm-12 text-center p-3">
-                    <button type="button" onclick="Change1930()" class="btn custombtn btn-lg">
-                        1930
-                    </button>
+                <div class="row justify-content-center">
+                    <div class="col-8 birthday1 text-center m-3">
+                        <h1 class="birthday" id="Change-Text"> My Birthday, I was born on May 24th, 2007</h1>
+                    </div>
                 </div>
-                <div class="col-lg-2 col-sm-12 text-center p-3">
-                    <button type="button" onclick="Change2014()" class="btn custombtn btn-lg">
-                        2014
-                    </button>
+            </div>
+            
+            <h1>Other events on my birthday</h1>
+
+
+            <div class="row text-center">
+                <div class="display-none col-lg-1">
                 </div>
+                <div class="col-12 col-lg-2">
+                    <button onclick="Change1883()" class="btn button">1833</button>
+                </div>
+                <div class="col-12 col-lg-2">
+                    <button onclick="Change1844()" class="btn button">1844</button>
+                </div>
+                <div class="col-12 col-lg-2">
+                    <button onclick="Change1915()" class="btn button">1915</button>
+                </div>
+                <div class="col-12 col-lg-2">
+                    <button onclick="Change1930()" class="btn button">1930</button>
+                </div>
+                <div class="col-12 col-lg-2">
+                    <button onclick="Change2014()" class="btn button">2014</button>
+                </div>
+                <div class="display-none col-lg-1"></div>
             </div>
         </div>
-   
+    </main>
 
-    
+
+
+
+
     <!-- Bootstrap JavaScript Libraries -->
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
