@@ -1,5 +1,5 @@
 function Change2007() {
-    document.getElementById('changeImage').src = '#'
+    document.getElementById('Change-Image').src = 'images/Ruth.jpg' 
     document.getElementById('Change-Text').innerText = 'This is what happened on 2007'
     document.getElementById('Change-Date').innerText = 'May 24, 2007'
 }
@@ -11,7 +11,7 @@ function Change1883() {
 }
 
 function Change1844() {
-    document.getElementById('Change-Image').src = 'images/morse/jpg'
+    document.getElementById('Change-Image').src = 'images/morse.jpg'
     document.getElementById('Change-Text').innerText = '1st Telegraph Message 1844 Samuel Morse taps out "What hath God wrought" in the worlds first telegraph message'
     document.getElementById('Change-Date').innerText = 'May 24th, 1844'
 }

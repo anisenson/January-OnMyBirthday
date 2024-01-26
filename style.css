@@ -7,8 +7,12 @@ body {
 }
 
 .background {
+  margin-top: 50px;
   background-color: #426CC9;
+  border: 2px solid #000000;
+  padding: 10px;
 }
+
 .nav-button {
   font-size: 45px;
   color: #EAF0F4;
@@ -19,11 +23,11 @@ body {
 .date {
   color: #EAF0F4;
   font-family: 'Kameron', serif;
+  
 }
 
 .birthday {
   font-family: 'Kameron', serif;
-  font-size: 30px;
 }
 
 .birthday1 {
@@ -31,9 +35,37 @@ body {
   padding: 10px;
   border-radius: 1%;
   box-shadow: 0 4px 8px 0 #426CC9, 0 6px 20px 0 #426CC9;
+  border: 2px solid #000000;
 }
 
 .img1 {
   width: 600px;
   height: auto;
+  border: 2px solid #000000;
+
+}
+
+hr {
+  border: 3px solid #426CC9;
+}
+
+.custombutton {
+  min-width: 130px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 20px;
+  border: 2px solid #000000;
+  background: #426CC9;
+  font-size: 20px;
+}
+.custombutton:hover {
+  background: #fff;
+  color: #426CC9;
+  border: 2px solid #426CC9;
 }
