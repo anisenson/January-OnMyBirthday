@@ -38,15 +38,15 @@ h5 {
 }
 
 .birthday1 {
+  width: 600px;
   background-color: #EAF0F4;
   border-radius: 1%;
-  box-shadow: 0 4px 8px 0 #426CC9, 0 6px 20px 0 #426CC9;
   border: 2px solid #000000;
 
 }
 
 .img1 { 
-  width: auto;
+  width: 600px;
   border: 2px solid #000000;
   border-radius: 1%;
 }
