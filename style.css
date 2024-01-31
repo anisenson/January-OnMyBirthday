@@ -26,23 +26,27 @@ body {
   
 }
 
+h5 {
+  color: white;
+  font-family: 'Kameron', serif;
+}
+
 .birthday {
   font-family: 'Kameron', serif;
 }
 
 .birthday1 {
-  background-color: #67BBE7;
-  padding: 10px;
+  background-color: #EAF0F4;
   border-radius: 1%;
   box-shadow: 0 4px 8px 0 #426CC9, 0 6px 20px 0 #426CC9;
   border: 2px solid #000000;
+
 }
 
-.img1 {
-  width: 600px;
-  height: auto;
+.img1 { 
+  width: auto;
   border: 2px solid #000000;
-
+  border-radius: 1%;
 }
 
 hr {
