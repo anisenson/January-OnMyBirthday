@@ -1,16 +1,11 @@
+
 body {
   background-color: #EAF0F4;
 }
 
+/*Navbar*/
 .navbar {
   background-color: #67BBE7;
-}
-
-.background {
-  margin-top: 50px;
-  background-color: #426CC9;
-  border: 2px solid #000000;
-  padding: 10px;
 }
 
 .nav-button {
@@ -18,6 +13,13 @@ body {
   color: #EAF0F4;
   font-weight: bold;
   font-family: 'Kalam', cursive;
+}
+
+.background {
+  margin-top: 50px;
+  background-color: #426CC9;
+  border: 2px solid #000000;
+  padding: 10px;
 }
 
 .date {
@@ -53,6 +55,7 @@ hr {
   border: 3px solid #426CC9;
 }
 
+/*Buttons*/
 .custombutton {
   min-width: 130px;
   color: #fff;
