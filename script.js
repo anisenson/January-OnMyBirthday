@@ -7,14 +7,14 @@ function Change2007() {
 
 function Change1883() {
     document.getElementById('Change-Image').src = 'images/Brooklyn-Bridge.jpg'
-    document.getElementById('Change-Text').innerText = ' The Brooklyn Bridge opened as the longest suspension bridge in the world on May 24, 1883. Spanning across the East River, the Brooklyn Bridge connects the boroughs of Manhattan and Brooklyn in New York.'
+    document.getElementById('Change-Text').innerText = 'The Brooklyn Bridge opened as the longest suspension bridge in the world on May 24, 1883. Spanning across the East River, the Brooklyn Bridge connects the boroughs of Manhattan and Brooklyn in New York.'
     document.getElementById('Change-Date').innerText = 'May 24, 1883'
     document.getElementById('Change-Image').alt = 'Picture of the Brooklyn Bridge'
 }
 
 function Change1844() {
     document.getElementById('Change-Image').src = 'images/morse.jpg'
-    document.getElementById('Change-Text').innerText = '1st Telegraph Message 1844 Samuel Morse taps out "What hath God wrought" in the worlds first telegraph message'
+    document.getElementById('Change-Text').innerText = 'In 1844, Samuel Morse taps out "What hath God wrought" in the worlds first telegraph message'
     document.getElementById('Change-Date').innerText = 'May 24, 1844'
     document.getElementById('Change-Image').alt = 'Picture of Samuel Morse and his first telegraph message'
 
@@ -22,7 +22,7 @@ function Change1844() {
 
 function Change1915() {
     document.getElementById('Change-Image').src = 'images/Edison.jpg'
-    document.getElementById('Change-Text').innerText = '1915 Thomas Edison invents telescribe to record telephone conversations'
+    document.getElementById('Change-Text').innerText = 'In 1915, Thomas Edison invents the telescribe to record telephone conversations'
     document.getElementById('Change-Date').innerText = 'May 24, 1915'
     document.getElementById('Change-Image').alt = 'Picture of Thomas Edison with his telescribe'
 
@@ -30,7 +30,7 @@ function Change1915() {
 
 function Change1930() {
     document.getElementById('Change-Image').src = 'images/Ruth.jpg'
-    document.getElementById('Change-Text').innerText = '1930 NY Yankees legendary slugger Babe Ruth homers in both games of a doubleheader gives him 9 HRs in one week'
+    document.getElementById('Change-Text').innerText = 'In 1930, NY Yankees legendary slugger Babe Ruth homers in both games of a doubleheader gives him 9 HRs in one week'
     document.getElementById('Change-Date').innerText = 'May 24, 1930'
     document.getElementById('Change-Image').alt = 'Picture of Babe Ruth swinging his bat'
 
