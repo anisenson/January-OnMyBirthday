@@ -42,4 +42,4 @@ function Change2014() {
     document.getElementById('Change-Date').innerText = 'May 24, 2014'
     document.getElementById('Change-Image').alt = 'Picture of Kim Kardashian and Kanye West at their wedding'
 
-}
+} 
